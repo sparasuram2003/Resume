@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="css.css">
+        <script src="https://kit.fontawesome.com/a4d2c82547.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <div class ="container">
+                <nav>
+                    <!-- <img src="image/logo" class="logo"> -->
+                    <h1>Ram's Portfolio</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#responsibilities">Responsibilities</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>                    
+
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Python Developer</p>
+                    <h1>Hello, I'm <span>Parasuram</span><br> From GPREC</h1>
+                </div>
+            </div>
+        </div>
+        <!-- ---------ABOUT -------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2CKzJYYpad0BaUpphL08LGG2LOw21XDJAq4mTmCf6psRWddkgOQQTTPf5Wb1lyEIwSEU&usqp=CAU">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About</h1>
+                        <p>I am Parasuram, from Yemmiganur. Currently I am pursuing B.Tech 3rd year department of Electronic & Communication Engineering, GPREC. I completed my 12th in Deeksha Junior College, Yemmiganur. My hobbies are playing Cricket &Suduko,watching movies,cooking,riding. My words are Happy coding, Eat-Code-Sleep_Repeat,Never giveup. That's all about my introduction.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')" >Education</p>
+                            <p class="tab-links" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')" >Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Under-Graduation   (2021-2025) :</span><br>Electronics & Communication Engineering<br>CGPA : 9.45<b</li>
+                                <li><span>Minir Degree   (2022-2025) :</span><br>Computer Science<br>CGPA : 8.8<b</li>
+                                <li><span>Intermediate   (2019-2021) :</span><br>Mathematics & Science<br>Perc : 94.6%<b</li>
+                                <li><span>SSC (2019) :</span><br>Vignan English Medium High School<br>GPA : 9.3<b</li>
+                     
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Python</span><br>Python Programming<b</li>
+                                <li><span>DSA</span><br>DSA though Python<b</li>
+                                <li><span>Web Development</span><br>Web App Development<b</li>
+                                <li><span>C - Lang</span><br>C Programming language<b</li>
+                                <li><span>Java</span><br>Beginner level in Java<b</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Personal Portfolio</span><br>Protfolio using HTML|CSS|JS<b</li>
+                                <li><span>Page Loader</span><br>Page loader using HTML & CSS<b</li>
+                                <li><span>Bank Application</span><br>Performing Bank operations by using Pyhton<b</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <!-- --------- Responsibilities -------- -->
+        <div id="responsibilities">
+            <div class="container">
+                <h1 class="sub-title">My Roles</h1>
+                <div class="responsibilities-list">
+                    <div>
+                        <i class="fa-solid fa-user-ninja"></i>
+                        <h2>IEI Volenteer</h2>
+                        <p>Worked as Student Volenteer & Coordinator of IEI Students Chapter of GPREC,Kurnool.</p>
+                        <a href="https://www.ieindia.org/webui/iei-home.aspx">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h2>NSS Coordinator</h2>
+                        <p>Student Coordinator of National Social Service ( NSS ) forum of GPREC.</p>
+                        <a href="https://nss.gov.in/">Learn more</a>
+                    </div>
+                        <div>
+                        <i class="fa-solid fa-landmark"></i>
+                        <h2>Class Representative</h2>
+                        <p>Facilitated effective Communication between students and faculty.</p>
+                        <a href="https://www.gprec.ac.in/   ">Learn more</a>
+                    
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-shuffle"></i>
+                        <h2>ISTE Volenteer</h2>
+                        <p>Worked as ISTE student Volenteer & Coordinator of ISTE Students Chapter of GPREC,Kurnool.</p>
+                        <a href="http://www.isteonline.in/">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--   ----------Portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://www.finoit.com/wp-content/uploads/2023/08/where-to-find-great-python-developers.jpg" width="100%" height="100%">
+                    <div class="layer">
+                        <h3>Python Programming</h3>
+                        <p>To conduct complex statistical calculations, create data visualisations, build machine learning algorithms, manipulate and analyse data, and complete other data-related tasks.</p>
+                        <a href="https://www.python.org/doc/essays/blurb/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg"  width="100%" height="100%">
+                     <div class="layer">
+                        <h3>Developer</h3>
+                        <p>To the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+                        <a href="https://www.geeksforgeeks.org/web-development/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211021164218/pythondatastructuresmin.png"  width="100%" height="100%">
+                     <div class="layer">
+                        <h3>Promblem Solving</h3>
+                        <p>By using DSA we can manage the time complexity of problems.</p>
+                        <a href="https://www.geeksforgeeks.org/python-data-structures/"><i class="fa-sharp fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--    ----------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><i class="fa-solid fa-paper-plane"></i>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>parasurams2003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9533313791</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sudugundu-parasuram-1827a025b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sparasuram2003"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.hackerrank.com/profile/parasurams2003"><i class="fa-brands fa-hackerrank"></i></a>
+                        <a href="https://leetcode.com/sparasuram/"><i class="fa-solid fa-code"></i></a>
+                        
+                        
+                    </div>
+                    <!-- add resume path -->
+                    <a href="Ram resume.pdf" class="btn btn2"> Downlaods CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+    
+                        <textarea name="Messege" rows="6" placeholder="Your Messege" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright 0 Parasuram's Personal Portfolio<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <link rel="script" href="javascript.js">
+   
+    </body>
+</html>
